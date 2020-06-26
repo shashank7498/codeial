@@ -7,6 +7,7 @@ const router= express.Router();
 
  router.get('/profile', userController.profile);
 
+ // for any further routes 
 
 
 
