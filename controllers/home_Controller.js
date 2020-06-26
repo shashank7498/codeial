@@ -1,4 +1,7 @@
 module.exports.home=function(req, res){
-    return  res.end('<h1> My server is up and working fine!</h1>');
+     
+   return  res.render('home',{
+        title:"Home"
+    });
 };
-//  module.exports.actionname=funtion(req,res){};
+//  module.exports.actionname=funtion(req,res){};                   
