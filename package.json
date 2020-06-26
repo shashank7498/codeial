@@ -4,7 +4,7 @@
   "description": "my social media web app",
   "main": "index.js",
   "scripts": {
-    "start":" nodemon index.js",
+    "start": " nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,6 +13,7 @@
   "author": "Shashank chauhan",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.3",
     "express": "^4.17.1",
     "nodemon": "^2.0.4"
   }
