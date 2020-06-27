@@ -5,6 +5,9 @@
  const port =8000;
  app.use(express.static('./assets'));
  app.use(expressLayouts);
+ // extract style and scripts from sub pages into the layouts
+ app.set('layout extractStyles', true);
+ app.set('layout extractScripts', true);
  app.use('/', require('./routes/index'));
  app.use(express.urlencoded({ extended: true }));
  // set-up the view engine
