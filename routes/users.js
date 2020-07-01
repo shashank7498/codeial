@@ -17,6 +17,8 @@ const router= express.Router();
      { failureRedirect: '/sign-in' }
      ),userController.createSession);
 
+
+router.get('/sign-out', userController.destroySession);
  // for any further routes 
 
 
