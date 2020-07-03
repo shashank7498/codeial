@@ -43,7 +43,9 @@ app.use(session({
     name:'codeial',
     // TODO change  the secrete before the deployment  in production mode
     secret:'blahsomething',
+    // save without any session 
     saveUninitialized:false,
+    // 
     resave:false,
     cookie:{
         maxAge:(1000*60*100)
